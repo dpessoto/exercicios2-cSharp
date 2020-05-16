@@ -6,9 +6,9 @@ namespace MEU_ESPACO_DE_NOMES {
         static void Main(string[] args) {
             double graus = 30.0;
             Unip.POOI.A2019.CalCientifica calc1 = new Unip.POOI.A2019.CalCientifica();
-            Console.WriteLine("Cosseno de {0} e {1}", graus, calc1.Cosseno(30.0));
+            Console.WriteLine("Cosseno de {0} e {1}", graus, Unip.POOI.A2019.CalCientifica.Cosseno(30.0));
             CalAritmetica calc2 = new CalAritmetica();
-            Console.WriteLine("A subtracao de 5 - 3 e = {0}", calc2.Subtracao(5, 3));
+            Console.WriteLine("A subtracao de 5 - 3 e = {0}", CalAritmetica.Subtracao(5, 3));
         }
     }
 }
